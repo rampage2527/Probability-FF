@@ -13,11 +13,10 @@ while z < 100: #overarchimg sim
         j = 0
         totalAMT = 0
 
-        Dak = random.choices([0,1], weights=[20,80], k=16) #random list creation
-       
+        Dak = random.choices([0,1], weights=[20,80], k=17) #random list creation
         CeeDee = Dak #The theory is that since they are linked they will both do good or bad so this gets the same value as above
-        Allen = random.choices([0,1], weights=[20,80], k=16)
-        Chase = random.choices([0,1], weights=[20,80], k=16)
+        Allen = random.choices([0,1], weights=[20,80], k=17)
+        Chase = random.choices([0,1], weights=[20,80], k=17)
 
         j += 1
 
